@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+    width: 93%;
+    height: auto;
+    display: flex;
+    border: 1px solid rebeccapurple;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin: auto;
+    box-shadow: 1px 2px 8px rgb(78 74 74);
+    padding: 2%;
+    background-color: rgb(216, 224, 222);
+    position: relative;
+    border: 1px solid red;
+    height: 63vh;
+
+
+}
+
+img {
+    width: 25%;
+    height: 33.3%;
+    border-radius: 50%;
+    box-shadow: 4px 0px 5px rgb(78 74 74);
+
+
+}
+
+.container_duplicate {
+    /* position: relative; */
+    /* border: 1px solid black; */
+    
+}
+
+.winner {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 34%;
+    left: 17%;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0px 0px 8px black ;
+
+    /* left: 17%; */
+    /* display: none; */
+
+}
+#abc{
+    display: none;
+}
+
+.winner h2, h1 , #score2 , #winnerTime{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(147 34 34);
+    text-shadow: 2px 1px 1px white;
+}
+.nav{
+    width: 97vw;
+    height: 16%;
+    /* background-color: rgb(126, 141, 141); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    box-shadow: 1px 1px 3px black;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgb(207 209 208);
+
+}
+.myname_div h1{
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+    color: white;
+    margin: 10px 0 0 10px;
+}
+.mydetails_div h2{
+    color: #615d5d;
+    text-shadow: 1px 1px 1px white;
+    margin: 0 0 0 10px;
+    text-align: center;
+    font-size: 19px;
+
+    
+
+}
+#time{
+    font-size: 24px;
+}
+.timer_div{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #191717;
+    text-shadow: 1px 1px 1px white;
+}
+.score_gametime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score_gametime h2 ,  span , #time{
+    font-size: 17px;
+}
+.score_gametime h2 {
+    color: #71716b;
+}
+.score_gametime span {
+    color: #fe0000;
+}
+.score_div h2{
+    border: 1px solid red;
+    border: 1px solid red;
+    width: 110px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+}
+.gametime_div h2{
+    border: 1px solid red;
+    width: 188px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+}
+.winner a{
+    text-decoration: none;
+    /* color: white; */
+    margin-bottom: 10px;
+    color: #2a2b2a;
+    font-weight: bolder;
+}
+#Restart_game{
+    width: 60%;
+    background-color: #fc450976;
+    margin: auto;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+
+    
+}

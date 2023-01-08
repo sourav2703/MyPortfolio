@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    width: 97vw;
+    height: 16%;
+    /* background-color: rgb(126, 141, 141); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    box-shadow: 1px 1px 3px black;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgb(207 209 208);
+
+}
+.myname_div h1{
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+    color: white;
+    margin: 10px 0 0 10px;
+}
+.mydetails_div h2{
+    color: #615d5d;
+    text-shadow: 1px 1px 1px white;
+    margin: 0 0 0 10px;
+    text-align: center;
+    font-size: 19px;
+
+    
+
+}
+.body{
+    width: 98vw;
+    height: 78%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: scroll;
+}
+.footer{
+    width: 100vw;
+    height: 5%;
+    background-color: rgb(234, 234, 234);
+}
+.inner_body{
+    background-color: rgb(238 238 238);
+    width: 95%;
+    height: 93%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.footer div{
+    /* margin: 0 30px; */
+}
+#time{
+    font-size: 14px;
+}
+.timer_div{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #191717;
+    text-shadow: 1px 1px 1px white;
+}
+.projects{
+    width: 95%;
+    height: auto;
+    background-color: #6c6c6c;
+    margin: 5px 5px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+
+}
+.body::-webkit-scrollbar {
+    display: none;
+}
+.name_of_project h1{
+    font-size: 18px;
+    margin: 10px 0;
+    text-shadow: 1px 1px 5px black;
+}
+.detains_of_Project  p{
+    font-size: 16px;
+    margin: 10px 0;
+    text-shadow: 1px 1px 5px rgb(185, 63, 63);
+}
+.detains_of_Project a p{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px black;
+
+}
+.detains_of_Project a{
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgb(237, 47, 47);
+}
